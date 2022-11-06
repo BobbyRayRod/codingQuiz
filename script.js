@@ -1,7 +1,7 @@
 // select start button
 
 
-//add event listner
+//add event listener
 
 
 // when clicked show first question
