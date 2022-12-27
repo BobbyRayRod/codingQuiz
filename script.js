@@ -1,4 +1,3 @@
-// select start button
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
@@ -7,13 +6,12 @@ const answerButtonsElement = document.getElementById('answer-buttons')
 
 let shuffledQuestions, currentQuestionIndex
 
-//add event listener
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++
     setNextQuestion()
 })
-// when clicked show first question
+
 function startGame() {
     console.log('started')
     startButton.classList.add('hide')
